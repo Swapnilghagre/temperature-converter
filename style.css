@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.main{
+    
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#box{
+    padding-top: 12px;
+    min-width: 400px;
+    height: 40vh;
+    border-radius: 20px;
+    background-color:aquamarine ;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+
+}
+#box input{
+    padding: 0 20px;
+    border: 0;
+    width: 85%;
+    height: 15%;
+    border-radius: 5px;
+    font-size: large;
+    font-weight: 300;
+}
+#btn{
+    font-size: 20px;
+    color: #fff;
+    background-color: rgb(40, 137, 247);
+}
